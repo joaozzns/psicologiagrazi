@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,43 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Paleta personalizada para o site da psicóloga
+				nude: {
+					50: '#faf9f7',
+					100: '#f5f2ed',
+					200: '#e8e1d4',
+					300: '#d9ccb8',
+					400: '#c4b299',
+					500: '#b09c81',
+					600: '#9a8a73',
+					700: '#7f7260',
+					800: '#675d51',
+					900: '#544d43'
+				},
+				rose: {
+					50: '#fdf4f3',
+					100: '#fce7e6',
+					200: '#f9d2d0',
+					300: '#f4afab',
+					400: '#ec7c75',
+					500: '#e15045',
+					600: '#d63729',
+					700: '#b32a1e',
+					800: '#94271d',
+					900: '#7c271f'
+				},
+				gold: {
+					50: '#fffbeb',
+					100: '#fef3c7',
+					200: '#fde68a',
+					300: '#fcd34d',
+					400: '#fbbf24',
+					500: '#f59e0b',
+					600: '#d97706',
+					700: '#b45309',
+					800: '#92400e',
+					900: '#78350f'
 				}
 			},
 			borderRadius: {
@@ -84,11 +122,25 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out'
+			},
+			fontFamily: {
+				'elegant': ['Inter', 'system-ui', 'sans-serif'],
 			}
 		}
 	},
