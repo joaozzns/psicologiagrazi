@@ -1,31 +1,31 @@
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-background">
+    <section id="about" className="py-20" style={{ backgroundColor: '#CEAAAA' }}>
       <div className="container-max section-padding">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
-            <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-nude-100 to-rose-100 p-6">
+            <div className="aspect-[4/5] rounded-2xl p-6" style={{ backgroundColor: '#9EA697' }}>
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=500&fit=crop&crop=center"
-                alt="Dra. Maria Silva - Psicóloga"
+                src="/lovable-uploads/20d306ea-0b08-4f21-87cb-be190903ab09.png"
+                alt="Graciela Oliveira - Psicóloga"
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
             </div>
-            <div className="absolute -top-3 -left-3 w-20 h-20 bg-gold-300 rounded-full opacity-70"></div>
+            <div className="absolute -top-3 -left-3 w-20 h-20 rounded-full opacity-70" style={{ backgroundColor: '#B4715A' }}></div>
           </div>
           
           <div className="space-y-8">
             <div>
-              <h2 className="text-3xl md:text-4xl font-light text-foreground mb-4">
+              <h2 className="text-3xl md:text-4xl font-light mb-4" style={{ color: '#373737' }}>
                 Sobre mim
               </h2>
-              <div className="w-16 h-1 bg-primary rounded-full"></div>
+              <div className="w-16 h-1 rounded-full" style={{ backgroundColor: '#B4715A' }}></div>
             </div>
             
-            <div className="space-y-6 text-muted-foreground leading-relaxed">
+            <div className="space-y-6 leading-relaxed" style={{ color: '#373737' }}>
               <p className="text-lg">
-                Sou <strong className="text-foreground">Dra. Maria Silva</strong>, psicóloga clínica formada pela 
+                Sou <strong>Graciela Oliveira</strong>, psicóloga clínica formada pela 
                 Universidade de São Paulo, com especialização em Terapia Cognitivo-Comportamental 
                 e mais de 8 anos de experiência no atendimento clínico.
               </p>
@@ -43,9 +43,9 @@ const About = () => {
               </p>
             </div>
             
-            <div className="bg-nude-50 p-6 rounded-xl">
-              <h3 className="font-medium text-foreground mb-3">Formação e Especializações</h3>
-              <ul className="space-y-2 text-muted-foreground">
+            <div className="p-6 rounded-xl" style={{ backgroundColor: '#9EA697' }}>
+              <h3 className="font-medium mb-3" style={{ color: '#373737' }}>Formação e Especializações</h3>
+              <ul className="space-y-2" style={{ color: '#373737' }}>
                 <li>• Graduação em Psicologia - USP</li>
                 <li>• Especialização em Terapia Cognitivo-Comportamental</li>
                 <li>• Formação em Mindfulness e Terapias de Terceira Onda</li>

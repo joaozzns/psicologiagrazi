@@ -10,16 +10,16 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-nude-50 via-background to-rose-50">
+    <section id="home" className="min-h-screen flex items-center" style={{ backgroundColor: '#CEAAAA' }}>
       <div className="container-max section-padding w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-foreground leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#373737' }}>
               Um espaço seguro para o seu
-              <span className="text-primary font-medium block">bem-estar emocional</span>
+              <span className="font-medium block" style={{ color: '#B4715A' }}>bem-estar emocional</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+            <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#373737' }}>
               Ofereço um atendimento psicológico humanizado e acolhedor, 
               respeitando sua individualidade e ritmo único de crescimento pessoal.
             </p>
@@ -28,7 +28,8 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 onClick={scrollToContact}
-                className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
+                className="text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:opacity-90"
+                style={{ backgroundColor: '#B4715A' }}
               >
                 Agende sua sessão
               </Button>
@@ -36,7 +37,12 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-                className="border-primary text-primary hover:bg-primary/5 px-8 py-3 rounded-full"
+                className="px-8 py-3 rounded-full hover:opacity-80"
+                style={{ 
+                  borderColor: '#B4715A', 
+                  color: '#B4715A',
+                  backgroundColor: 'transparent'
+                }}
               >
                 Conheça meu trabalho
               </Button>
@@ -44,15 +50,15 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-square rounded-full bg-gradient-to-br from-nude-200 to-rose-200 p-8">
+            <div className="aspect-square rounded-full p-8" style={{ backgroundColor: '#9EA697' }}>
               <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=500&h=500&fit=crop&crop=center"
-                alt="Ambiente acolhedor para terapia"
+                src="/lovable-uploads/20d306ea-0b08-4f21-87cb-be190903ab09.png"
+                alt="Graciela Oliveira - Psicóloga"
                 className="w-full h-full object-cover rounded-full shadow-2xl"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-gold-200 rounded-full opacity-60"></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-rose-200 rounded-full opacity-40"></div>
+            <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full opacity-60" style={{ backgroundColor: '#B4715A' }}></div>
+            <div className="absolute -bottom-6 -left-6 w-32 h-32 rounded-full opacity-40" style={{ backgroundColor: '#9EA697' }}></div>
           </div>
         </div>
       </div>

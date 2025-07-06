@@ -11,32 +11,32 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 350 20% 99%;
-    --foreground: 345 15% 15%;
+    --foreground: 0 0% 22%;
 
     --card: 350 20% 99%;
-    --card-foreground: 345 15% 15%;
+    --card-foreground: 0 0% 22%;
 
     --popover: 350 20% 99%;
-    --popover-foreground: 345 15% 15%;
+    --popover-foreground: 0 0% 22%;
 
-    --primary: 28 82% 52%;
+    --primary: 17 37% 52%;
     --primary-foreground: 350 20% 99%;
 
     --secondary: 20 14% 91%;
-    --secondary-foreground: 345 15% 15%;
+    --secondary-foreground: 0 0% 22%;
 
     --muted: 20 14% 95%;
-    --muted-foreground: 345 10% 50%;
+    --muted-foreground: 0 0% 50%;
 
     --accent: 20 14% 93%;
-    --accent-foreground: 345 15% 15%;
+    --accent-foreground: 0 0% 22%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 20 14% 91%;
     --input: 20 14% 91%;
-    --ring: 28 82% 52%;
+    --ring: 17 37% 52%;
 
     --radius: 0.75rem;
 
