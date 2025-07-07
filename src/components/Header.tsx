@@ -30,31 +30,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('home')}
-              className="text-white hover:text-white/80 transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               Início
             </button>
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-white hover:text-white/80 transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               Sobre Mim
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-white hover:text-white/80 transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               Atendimento
             </button>
             <button 
               onClick={() => scrollToSection('areas')}
-              className="text-white hover:text-white/80 transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               Áreas
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
-              className="text-white hover:text-white/80 transition-colors"
+              className="text-black hover:text-gray-600 transition-colors"
             >
               Contato
             </button>
@@ -65,41 +65,41 @@ const Header = () => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2"
           >
-            {isMenuOpen ? <X size={24} className="text-white" /> : <Menu size={24} className="text-white" />}
+            {isMenuOpen ? <X size={24} className="text-black" /> : <Menu size={24} className="text-black" />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-white/20">
+          <div className="md:hidden py-4 border-t border-black/20">
             <nav className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('home')}
-                className="text-left text-white hover:text-white/80 transition-colors"
+                className="text-left text-black hover:text-gray-600 transition-colors"
               >
                 Início
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-left text-white hover:text-white/80 transition-colors"
+                className="text-left text-black hover:text-gray-600 transition-colors"
               >
                 Sobre Mim
               </button>
               <button 
                 onClick={() => scrollToSection('services')}
-                className="text-left text-white hover:text-white/80 transition-colors"
+                className="text-left text-black hover:text-gray-600 transition-colors"
               >
                 Atendimento
               </button>
               <button 
                 onClick={() => scrollToSection('areas')}
-                className="text-left text-white hover:text-white/80 transition-colors"
+                className="text-left text-black hover:text-gray-600 transition-colors"
               >
                 Áreas
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-left text-white hover:text-white/80 transition-colors"
+                className="text-left text-black hover:text-gray-600 transition-colors"
               >
                 Contato
               </button>

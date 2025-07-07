@@ -12,7 +12,6 @@ const About = () => {
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
             </div>
-            <div className="absolute -top-3 -left-3 w-20 h-20 rounded-full opacity-70" style={{ backgroundColor: '#B4715A' }}></div>
           </div>
           
           <div className="space-y-8">
@@ -25,27 +24,21 @@ const About = () => {
             
             <div className="space-y-6 leading-relaxed" style={{ color: '#373737' }}>
               <p className="text-lg">
-                Sou <strong>Graciela Oliveira</strong>, psicóloga clínica formada pela 
-                Universidade de São Paulo, com especialização em Terapia Cognitivo-Comportamental 
-                e mais de 8 anos de experiência no atendimento clínico.
+                Sou <strong>Graciela Oliveira</strong>, psicóloga clínica especializada em terapia cognitiva comportamental, com formações complementares em psicopatologia e práticas baseadas em evidências.
               </p>
               
               <p>
-                Minha abordagem terapêutica é baseada no acolhimento, escuta ativa e respeito 
-                à individualidade de cada pessoa. Acredito que cada um possui recursos internos 
-                para superar suas dificuldades, e meu papel é facilitar esse processo de autodescoberta.
+                Atuo com foco no transtorno bipolar, oferecendo escuta qualificada, intervenções individualizadas e um acompanhamento ético, atualizado e acolhedor.
               </p>
               
               <p>
-                Trabalho com adolescentes e adultos, oferecendo um espaço seguro e livre de 
-                julgamentos para que você possa expressar seus sentimentos e trabalhar questões 
-                que impactam sua qualidade de vida.
+                Meu compromisso é ajudar cada pessoa a compreender o que sente, construir estabilidade e retomar o protagonismo da própria vida.
               </p>
             </div>
             
-            <div className="p-6 rounded-xl" style={{ backgroundColor: '#9EA697' }}>
-              <h3 className="font-medium mb-3" style={{ color: '#373737' }}>Formação e Especializações</h3>
-              <ul className="space-y-2" style={{ color: '#373737' }}>
+            <div className="p-6 rounded-xl" style={{ backgroundColor: '#B4715A' }}>
+              <h3 className="font-medium mb-3 text-white">Formação e Especializações</h3>
+              <ul className="space-y-2 text-white">
                 <li>• Graduação em Psicologia - USP</li>
                 <li>• Especialização em Terapia Cognitivo-Comportamental</li>
                 <li>• Formação em Mindfulness e Terapias de Terceira Onda</li>
