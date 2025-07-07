@@ -39,14 +39,6 @@ const Footer = () => {
                   Áreas
                 </button>
               </li>
-              <li>
-                <button 
-                  onClick={() => document.getElementById('blog')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="hover:opacity-100 transition-opacity"
-                >
-                  Blog
-                </button>
-              </li>
             </ul>
           </div>
 

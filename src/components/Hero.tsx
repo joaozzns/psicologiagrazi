@@ -57,8 +57,6 @@ const Hero = () => {
                 className="w-full h-full object-cover rounded-full shadow-2xl"
               />
             </div>
-            <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full opacity-60" style={{ backgroundColor: '#B4715A' }}></div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 rounded-full opacity-40" style={{ backgroundColor: '#9EA697' }}></div>
           </div>
         </div>
       </div>

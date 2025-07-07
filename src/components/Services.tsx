@@ -58,54 +58,28 @@ const Services = () => {
         </div>
 
         <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-xl font-medium text-foreground mb-4">Modalidades de Atendimento</h3>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-medium text-foreground">Terapia Individual</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Atendimento personalizado focado em suas necessidades específicas
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-medium text-foreground">Terapia de Casal</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Trabalho conjunto para fortalecer vínculos e comunicação
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2"></div>
-                  <div>
-                    <h4 className="font-medium text-foreground">Orientação Familiar</h4>
-                    <p className="text-muted-foreground text-sm">
-                      Suporte para questões familiares e dinâmicas relacionais
-                    </p>
-                  </div>
-                </div>
-              </div>
+          <h3 className="text-xl font-medium text-foreground mb-6 text-center">Modalidades de Atendimento</h3>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <div className="w-2 h-2 bg-primary rounded-full mx-auto mb-3"></div>
+              <h4 className="font-medium text-foreground mb-2">Terapia Individual</h4>
+              <p className="text-muted-foreground text-sm">
+                Atendimento personalizado focado em suas necessidades específicas
+              </p>
             </div>
-
-            <div>
-              <h3 className="text-xl font-medium text-foreground mb-4">Investimento</h3>
-              <div className="space-y-4">
-                <div className="bg-nude-50 p-4 rounded-xl">
-                  <h4 className="font-medium text-foreground">Sessão Individual</h4>
-                  <p className="text-2xl font-light text-primary">R$ 150</p>
-                  <p className="text-muted-foreground text-sm">50 minutos • Online ou Presencial</p>
-                </div>
-                <div className="bg-nude-50 p-4 rounded-xl">
-                  <h4 className="font-medium text-foreground">Pacote Mensal</h4>
-                  <p className="text-2xl font-light text-primary">R$ 540</p>
-                  <p className="text-muted-foreground text-sm">4 sessões • Economia de 10%</p>
-                </div>
-              </div>
+            <div className="text-center">
+              <div className="w-2 h-2 bg-primary rounded-full mx-auto mb-3"></div>
+              <h4 className="font-medium text-foreground mb-2">Terapia de Casal</h4>
+              <p className="text-muted-foreground text-sm">
+                Trabalho conjunto para fortalecer vínculos e comunicação
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-2 h-2 bg-primary rounded-full mx-auto mb-3"></div>
+              <h4 className="font-medium text-foreground mb-2">Orientação Familiar</h4>
+              <p className="text-muted-foreground text-sm">
+                Suporte para questões familiares e dinâmicas relacionais
+              </p>
             </div>
           </div>
         </div>
