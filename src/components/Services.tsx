@@ -1,5 +1,5 @@
 
-import { Clock, Video, MapPin, Heart } from 'lucide-react';
+import { Clock, Video, Heart } from 'lucide-react';
 
 const Services = () => {
   return (
@@ -15,7 +15,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="text-center group">
             <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
               <Video className="w-8 h-8 text-primary" />
@@ -23,16 +23,6 @@ const Services = () => {
             <h3 className="font-medium text-foreground mb-2">Online</h3>
             <p className="text-muted-foreground text-sm">
               Atendimento por videochamada, com total privacidade e comodidade
-            </p>
-          </div>
-
-          <div className="text-center group">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
-              <MapPin className="w-8 h-8 text-primary" />
-            </div>
-            <h3 className="font-medium text-foreground mb-2">Presencial</h3>
-            <p className="text-muted-foreground text-sm">
-              Consultório acolhedor localizado em região central e acessível
             </p>
           </div>
 
