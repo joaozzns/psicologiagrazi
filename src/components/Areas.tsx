@@ -10,26 +10,6 @@ const Areas = () => {
       title: "Autoestima e Autoconhecimento",
       description: "Desenvolvimento da confiança pessoal e descoberta do seu potencial único",
       color: "bg-gold-100 text-gold-700"
-    },
-    {
-      title: "Relacionamentos Amorosos",
-      description: "Questões conjugais, dificuldades de relacionamento e construção de vínculos saudáveis",
-      color: "bg-nude-200 text-nude-800"
-    },
-    {
-      title: "Transições de Vida",
-      description: "Apoio em momentos de mudança, luto, separação e novos recomeços",
-      color: "bg-rose-100 text-rose-700"
-    },
-    {
-      title: "Desenvolvimento Pessoal",
-      description: "Crescimento pessoal, definição de objetivos e realização de potencial",
-      color: "bg-gold-100 text-gold-700"
-    },
-    {
-      title: "Estresse e Burnout",
-      description: "Manejo do estresse profissional e prevenção do esgotamento emocional",
-      color: "bg-nude-200 text-nude-800"
     }
   ];
 
@@ -47,7 +27,7 @@ const Areas = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 justify-center max-w-4xl mx-auto">
           {areas.map((area, index) => (
             <div 
               key={index}

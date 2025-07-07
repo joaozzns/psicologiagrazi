@@ -5,9 +5,9 @@ const About = () => {
       <div className="container-max section-padding">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
-            <div className="aspect-[4/5] rounded-2xl p-6" style={{ backgroundColor: '#9EA697' }}>
+            <div className="aspect-[4/5] rounded-2xl p-6">
               <img 
-                src="/lovable-uploads/20d306ea-0b08-4f21-87cb-be190903ab09.png"
+                src="/lovable-uploads/4ef9d321-cf58-44fd-9557-06c195abcf1d.png"
                 alt="Graciela Oliveira - Psicóloga"
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
