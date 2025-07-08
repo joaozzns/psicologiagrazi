@@ -15,7 +15,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center group">
             <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors">
               <Video className="w-8 h-8 text-primary" />
@@ -44,33 +44,6 @@ const Services = () => {
             <p className="text-muted-foreground text-sm">
               Ambiente seguro e livre de julgamentos para seu bem-estar
             </p>
-          </div>
-        </div>
-
-        <div className="bg-white rounded-2xl p-8 shadow-lg max-w-4xl mx-auto">
-          <h3 className="text-xl font-medium text-foreground mb-6 text-center">Modalidades de Atendimento</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="w-2 h-2 bg-primary rounded-full mx-auto mb-3"></div>
-              <h4 className="font-medium text-foreground mb-2">Terapia Individual</h4>
-              <p className="text-muted-foreground text-sm">
-                Atendimento personalizado focado em suas necessidades específicas
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-2 h-2 bg-primary rounded-full mx-auto mb-3"></div>
-              <h4 className="font-medium text-foreground mb-2">Terapia de Casal</h4>
-              <p className="text-muted-foreground text-sm">
-                Trabalho conjunto para fortalecer vínculos e comunicação
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-2 h-2 bg-primary rounded-full mx-auto mb-3"></div>
-              <h4 className="font-medium text-foreground mb-2">Orientação Familiar</h4>
-              <p className="text-muted-foreground text-sm">
-                Suporte para questões familiares e dinâmicas relacionais
-              </p>
-            </div>
           </div>
         </div>
       </div>
