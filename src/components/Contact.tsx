@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Phone, MapPin, Clock, MessageSquare } from 'lucide-react';
+import { Phone, Clock, MessageSquare } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
@@ -18,16 +18,11 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Mensagem enviada!",
-      description: "Entrarei em contato em breve. Obrigada!",
-    });
-    setFormData({ name: '', email: '', phone: '', message: '' });
+    window.location.href = 'mailto:graciela.souza.oliveira@gmail.com';
   };
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Olá! Gostaria de agendar uma consulta.");
-    window.open(`https://wa.me/5511999999999?text=${message}`, '_blank');
+    window.open('https://wa.me/5521979391820', '_blank');
   };
 
   return (
@@ -63,20 +58,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-foreground mb-1">Telefone e WhatsApp</h4>
-                  <p className="text-muted-foreground">(11) 99999-9999</p>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                  <MapPin className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-medium text-foreground mb-1">Consultório</h4>
-                  <p className="text-muted-foreground">
-                    Rua das Flores, 123 - Sala 45<br/>
-                    Vila Madalena, São Paulo - SP
-                  </p>
+                  <p className="text-muted-foreground">(21) 97939-1820</p>
                 </div>
               </div>
 
@@ -87,8 +69,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium text-foreground mb-1">Horário de Atendimento</h4>
                   <p className="text-muted-foreground">
-                    Segunda a Sexta: 8h às 18h<br/>
-                    Sábado: 8h às 12h
+                    Segunda a Sexta: 8h às 21h
                   </p>
                 </div>
               </div>

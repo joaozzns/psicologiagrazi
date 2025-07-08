@@ -7,8 +7,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-medium mb-4">Graciela Oliveira</h3>
             <p className="leading-relaxed opacity-80">
-              Psicóloga clínica dedicada ao atendimento humanizado e acolhedor, 
-              promovendo o bem-estar emocional de cada pessoa.
+              Cada pessoa tem seu tempo, seu ritmo e sua história. Aqui, você encontra um espaço para ser ouvido(a), acolhido(a) e guiado(a) com empatia no seu processo de transformação.
             </p>
           </div>
 
@@ -45,10 +44,9 @@ const Footer = () => {
           <div>
             <h4 className="font-medium mb-4">Contato</h4>
             <div className="space-y-2 opacity-80">
-              <p>(11) 99999-9999</p>
-              <p>contato@gracielaoliveira.psi.br</p>
-              <p>Vila Madalena, São Paulo - SP</p>
-              <p className="text-sm mt-4">CRP: 06/123456</p>
+              <p>(21) 97939-1820</p>
+              <p>graciela.souza.oliveira@gmail.com</p>
+              <p className="text-sm mt-4">CRP: 05/75493</p>
             </div>
           </div>
         </div>

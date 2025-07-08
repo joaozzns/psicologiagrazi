@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -6,6 +7,10 @@ const Hero = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const handleAgendarSessao = () => {
+    window.open('https://wa.me/5521979391820?text=Ol%C3%A1%2C%20Graciela!%20Gostaria%20de%20agendar%20uma%20sess%C3%A3o.%20Podemos%20conversar%3F', '_blank');
   };
 
   return (
@@ -25,7 +30,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
-                onClick={scrollToContact}
+                onClick={handleAgendarSessao}
                 className="text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:opacity-90"
                 style={{ backgroundColor: '#B4715A' }}
               >
@@ -48,7 +53,7 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-square rounded-full p-8" style={{ backgroundColor: '#9EA697' }}>
+            <div className="aspect-square rounded-full p-8">
               <img 
                 src="/lovable-uploads/20d306ea-0b08-4f21-87cb-be190903ab09.png"
                 alt="Graciela Oliveira - Psicóloga"
