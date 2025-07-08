@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -20,8 +19,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#373737' }}>
-              Ofereço um atendimento psicológico humanizado e acolhedor, 
-              respeitando sua individualidade e ritmo único de crescimento pessoal.
+              Cada pessoa tem seu tempo, seu ritmo e sua história. Aqui, você encontra um espaço para ser ouvido(a), acolhido(a) e guiado(a) com empatia no seu processo de transformação.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -39,12 +37,12 @@ const Hero = () => {
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                 className="px-8 py-3 rounded-full hover:opacity-80"
                 style={{ 
-                  borderColor: '#B4715A', 
-                  color: '#B4715A',
+                  borderColor: '#000000', 
+                  color: '#000000',
                   backgroundColor: 'transparent'
                 }}
               >
-                Conheça meu trabalho
+                Saiba mais sobre mim
               </Button>
             </div>
           </div>
