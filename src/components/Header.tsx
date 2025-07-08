@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/86d1288f-3af1-411c-9094-6463851e00f9.png"
+              src="/lovable-uploads/382cfa52-bad8-4b05-8426-b0e1faf71a31.png"
               alt="Graciela Oliveira"
               className="h-12"
             />
