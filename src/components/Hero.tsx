@@ -15,8 +15,8 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#373737' }}>
-              Um espaço seguro para o seu
-              <span className="font-medium block" style={{ color: '#B4715A' }}>bem-estar emocional</span>
+              Seu <span className="font-medium" style={{ color: '#B4715A' }}>bem-estar</span> começa com um
+              <span className="font-medium block" style={{ color: '#373737' }}>primeiro passo</span>
             </h1>
             
             <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#373737' }}>

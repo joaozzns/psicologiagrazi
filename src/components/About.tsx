@@ -39,10 +39,12 @@ const About = () => {
             <div className="p-6 rounded-xl" style={{ backgroundColor: '#B4715A' }}>
               <h3 className="font-medium mb-3 text-white">Formação e Especializações</h3>
               <ul className="space-y-2 text-white">
-                <li>• Graduação em Psicologia - USP</li>
-                <li>• Especialização em Terapia Cognitivo-Comportamental</li>
-                <li>• Formação em Mindfulness e Terapias de Terceira Onda</li>
-                <li>• CRP: 06/123456</li>
+                <li>• Graduação em Psicologia – UNISUAM</li>
+                <li>• Especialização em Terapia Cognitivo-Comportamental (TCC)</li>
+                <li>• Formação em Psicopatologia – Transtornos Mentais</li>
+                <li>• Formação em Psicoterapias Baseadas em Evidências</li>
+                <li>• Formação continuada em Transtorno Bipolar</li>
+                <li>• CRP 05/75493</li>
               </ul>
             </div>
           </div>
