@@ -14,7 +14,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center" style={{ backgroundColor: '#CEAAAA' }}>
+    <section id="home" className="min-h-screen flex items-center bg-background">
       <div className="container-max section-padding w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">

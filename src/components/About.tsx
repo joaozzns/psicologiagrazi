@@ -24,14 +24,14 @@ const About = () => {
             
             <div className="space-y-6 leading-relaxed" style={{ color: '#373737' }}>
               <p className="text-lg">
-                Sou <strong>Graciela Oliveira</strong>, psicóloga clínica especializada em terapia cognitiva comportamental, com formações complementares em psicopatologia e práticas baseadas em evidências.
+                Sou Graciela Oliveira, psicóloga clínica especializada em terapia cognitiva comportamental, com formações complementares em psicopatologia e práticas baseadas em evidências.
               </p>
               
-              <p>
+              <p className="text-lg">
                 Atuo com foco no transtorno bipolar, oferecendo escuta qualificada, intervenções individualizadas e um acompanhamento ético, atualizado e acolhedor.
               </p>
               
-              <p>
+              <p className="text-lg">
                 Meu compromisso é ajudar cada pessoa a compreender o que sente, construir estabilidade e retomar o protagonismo da própria vida.
               </p>
             </div>
