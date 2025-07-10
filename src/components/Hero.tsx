@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -13,9 +14,9 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center" style={{ backgroundColor: '#CEAAA4' }}>
+    <section id="home" className="min-h-screen flex items-center pt-16" style={{ backgroundColor: '#CEAAA4' }}>
       <div className="container-max section-padding w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
           <div className="space-y-8 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#373737' }}>
               Seu <span className="font-medium" style={{ color: '#B4715A' }}>bem-estar</span> começa com um
@@ -51,7 +52,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="relative">
+          <div className="relative mt-8">
             <div className="aspect-square rounded-full p-8">
               <img 
                 src="/lovable-uploads/20d306ea-0b08-4f21-87cb-be190903ab09.png"
