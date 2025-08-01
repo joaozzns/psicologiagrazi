@@ -2,8 +2,8 @@
 const Areas = () => {
   const areas = [
     {
-      title: "Ansiedade e Transtornos de Humor",
-      description: "Tratamento para ansiedade, depressão, síndrome do pânico e outros transtornos emocionais",
+      title: "Depressão",
+      description: "Tristeza profunda, falta de motivação, culpa excessiva, cansaço constante, perda de interesse pelas atividades do dia a dia.",
       color: "bg-rose-100 text-rose-700"
     },
     {
