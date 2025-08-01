@@ -8,8 +8,7 @@ const Footer = () => {
             <h3 className="text-xl font-medium mb-4">Graciela Oliveira</h3>
             <p className="leading-relaxed opacity-80">
               Cada pessoa tem seu tempo, seu ritmo e sua história. Aqui, você encontra um espaço para ser ouvido(a), acolhido(a) e guiado(a) com empatia no seu processo de transformação.
-             <p className="leading-relaxed opacity-80">
-
+             </p>
              <p className="leading-relaxed opacity-80">
               Se você vive com depressão, transtorno bipolar ou ansiedade, saiba que não está só, e que é possível viver com mais equilíbrio e bem-estar.
              </p>
