@@ -16,8 +16,8 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center pt-16" style={{ backgroundColor: '#CEAAA4' }}>
       <div className="container-max section-padding w-full">
-        <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
-          <div className="space-y-8 animate-fade-in">
+        <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
+          <div className="space-y-8 animate-fade-in mt-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light leading-tight" style={{ color: '#373737' }}>
               Seu <span className="font-medium" style={{ color: '#B4715A' }}>bem-estar</span> começa com um
               <span className="font-medium block" style={{ color: '#373737' }}>primeiro passo</span>
@@ -25,6 +25,8 @@ const Hero = () => {
             
             <p className="text-lg md:text-xl leading-relaxed" style={{ color: '#373737' }}>
               Cada pessoa tem seu tempo, seu ritmo e sua história. Aqui, você encontra um espaço para ser ouvido(a), acolhido(a) e guiado(a) com empatia no seu processo de transformação.
+              <br /><br />
+              Se você vive com depressão, transtorno bipolar ou ansiedade, saiba que não está só, e que é possível viver com mais equilíbrio e bem-estar.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -52,7 +54,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="relative mt-8">
+          <div className="relative mt-16">
             <div className="aspect-square rounded-full p-8">
               <img 
                 src="/lovable-uploads/20d306ea-0b08-4f21-87cb-be190903ab09.png"

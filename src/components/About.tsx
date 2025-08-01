@@ -24,27 +24,29 @@ const About = () => {
             
             <div className="space-y-6 leading-relaxed" style={{ color: '#373737' }}>
               <p className="text-lg">
-                Sou Graciela Oliveira, psicóloga clínica especializada em terapia cognitiva comportamental, com formações complementares em psicopatologia e práticas baseadas em evidências.
+                Olá! Me chamo Graciela Oliveira, sou psicóloga (CRP 05/75493) com atuação clínica voltada ao cuidado emocional de pessoas que enfrentam transtornos de humor, como depressão e transtorno bipolar, além de quadros de ansiedade.
               </p>
               
               <p className="text-lg">
-                Atuo com foco no transtorno bipolar, oferecendo escuta qualificada, intervenções individualizadas e um acompanhamento ético, atualizado e acolhedor.
+                Sou pós-graduada em Terapia Cognitivo-Comportamental e graduanda em Psicoterapias Baseadas em Evidências. Acredito na importância de um atendimento ético, acolhedor e embasado na ciência.
               </p>
               
               <p className="text-lg">
-                Meu compromisso é ajudar cada pessoa a compreender o que sente, construir estabilidade e retomar o protagonismo da própria vida.
+                Com escuta empática, trabalho para oferecer não apenas alívio dos sintomas, mas também compreensão, educação emocional e estratégias práticas que ajudam você a lidar melhor com suas oscilações de humor, pensamentos negativos e crises de ansiedade ou impulsividade.
+              </p>
+              
+              <p className="text-lg">
+                Estou em constante atualização para oferecer o melhor cuidado psicológico. Minhas formações incluem:
               </p>
             </div>
             
             <div className="p-6 rounded-xl" style={{ backgroundColor: '#B4715A' }}>
               <h3 className="font-medium mb-3 text-white">Formação e Especializações</h3>
               <ul className="space-y-2 text-white">
-                <li>• Graduação em Psicologia – UNISUAM</li>
-                <li>• Especialização em Terapia Cognitivo-Comportamental (TCC)</li>
-                <li>• Formação em Psicopatologia – Transtornos Mentais</li>
-                <li>• Formação em Psicoterapias Baseadas em Evidências</li>
+                <li>• Terapia Cognitivo-Comportamental (TCC) – GrupoPBE</li>
+                <li>• Psicopatologia (estudo e compreensão dos transtornos mentais) – GrupoPBE</li>
                 <li>• Formação continuada em Transtorno Bipolar</li>
-                <li>• CRP 05/75493</li>
+                <li>• Intensivo em Prevenção do Suicídio – GrupoPBE</li>
               </ul>
             </div>
           </div>
