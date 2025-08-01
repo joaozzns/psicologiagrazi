@@ -45,7 +45,6 @@ const Areas = () => {
             </div>
           ))}
         </div>
-        </div>
       </div>
     </section>
   );
