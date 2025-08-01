@@ -45,17 +45,6 @@ const Areas = () => {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground mb-6">
-            Não encontrou sua questão específica? Entre em contato para conversarmos.
-          </p>
-          <button 
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            className="text-primary hover:text-primary/80 font-medium underline"
-          >
-            Fale comigo sobre sua necessidade
-          </button>
         </div>
       </div>
     </section>
