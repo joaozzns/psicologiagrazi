@@ -9,12 +9,12 @@ const Footer = () => {
             <p className="leading-relaxed opacity-80">
               Cada pessoa tem seu tempo, seu ritmo e sua história. Aqui, você encontra um espaço para ser ouvido(a), acolhido(a) e guiado(a) com empatia no seu processo de transformação.
             </p>
-
+             <br> 
              <p className="leading-relaxed opacity-80">
               Se você vive com depressão, transtorno bipolar ou ansiedade, saiba que não está só, e que é possível viver com mais equilíbrio e bem-estar.
              </p>
           </div>
-
+             </br>
           <div>
             <h4 className="font-medium mb-4">Links Rápidos</h4>
             <ul className="space-y-2 opacity-80">
