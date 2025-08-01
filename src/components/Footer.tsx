@@ -11,6 +11,7 @@ const Footer = () => {
             </p>
              <p className="leading-relaxed opacity-80">
               Se você vive com depressão, transtorno bipolar ou ansiedade, saiba que não está só, e que é possível viver com mais equilíbrio e bem-estar.
+             </p>
           </div>
 
           <div>
