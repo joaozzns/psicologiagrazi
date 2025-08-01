@@ -2,13 +2,23 @@
 const Areas = () => {
   const areas = [
     {
-      title: "Ansiedade e Transtornos de Humor",
-      description: "Tratamento para ansiedade, depressão, síndrome do pânico e outros transtornos emocionais",
+      title: "Depressão",
+      description: "Tristeza profunda, falta de motivação, culpa excessiva, cansaço constante, perda de interesse pelas atividades do dia a dia.",
       color: "bg-rose-100 text-rose-700"
     },
     {
-      title: "Autoestima e Autoconhecimento",
-      description: "Desenvolvimento da confiança pessoal e descoberta do seu potencial único",
+      title: "Transtorno Bipolar (Tipo I e II)",
+      description: "Oscilações intensas de humor entre episódios depressivos e fases de euforia, impulsividade ou irritabilidade (hipomania ou mania).",
+      color: "bg-gold-100 text-gold-700"
+    },
+    {
+      title: "Ansiedade",
+      description: "Preocupações excessivas, insônia, tensão, medo constante, crises de pânico, fobia social ou ansiedade generalizada.",
+      color: "bg-rose-100 text-rose-700"
+    },
+    {
+      title: "Oscilações de humor sem diagnóstico definido",
+      description: "Casos em que a pessoa ainda não recebeu um diagnóstico, mas percebe instabilidade emocional, dificuldade de concentração, irritabilidade frequente ou crises recorrentes.",
       color: "bg-gold-100 text-gold-700"
     }
   ];
@@ -21,9 +31,8 @@ const Areas = () => {
             Áreas de Atendimento
           </h2>
           <div className="w-16 h-1 bg-primary rounded-full mx-auto mb-6"></div>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Trabalho com diversas questões emocionais e comportamentais, 
-            oferecendo suporte especializado para cada situação
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-4">
+            Atendo adolescentes (a partir de 14 anos) e adultos que enfrentam desafios emocionais relacionados a:
           </p>
         </div>
 
