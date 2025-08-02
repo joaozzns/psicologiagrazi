@@ -5,6 +5,7 @@ import About from '@/components/About';
 import Services from '@/components/Services';
 import Areas from '@/components/Areas';
 import AboutDisorders from '@/components/AboutDisorders';
+import PsychotherapyHelp from '@/components/PsychotherapyHelp';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -18,6 +19,7 @@ const Index = () => {
         <Services />
         <Areas />
         <AboutDisorders />
+        <PsychotherapyHelp />
         <Contact />
       </main>
       <Footer />
