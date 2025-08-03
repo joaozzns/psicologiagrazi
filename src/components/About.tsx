@@ -1,4 +1,5 @@
 
+
 const About = () => {
   return (
     <section id="about" className="py-20" style={{ backgroundColor: '#CEAAAA' }}>
@@ -41,7 +42,6 @@ const About = () => {
             </div>
             
             <div className="p-6 rounded-xl" style={{ backgroundColor: '#B4715A' }}>
-              <h3 className="font-medium mb-3 text-white">Formação e Especializações</h3>
               <ul className="space-y-2 text-white">
                 <li>• Terapia Cognitivo-Comportamental (TCC) – GrupoPBE</li>
                 <li>• Psicopatologia (estudo e compreensão dos transtornos mentais) – GrupoPBE</li>
@@ -57,3 +57,4 @@ const About = () => {
 };
 
 export default About;
+
