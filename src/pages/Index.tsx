@@ -7,6 +7,7 @@ import Services from '@/components/Services';
 import Areas from '@/components/Areas';
 import AboutDisorders from '@/components/AboutDisorders';
 import PsychotherapyHelp from '@/components/PsychotherapyHelp';
+import InstagramSection from '@/components/InstagramSection';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -22,6 +23,7 @@ const Index = () => {
         <Areas />
         <AboutDisorders />
         <PsychotherapyHelp />
+        <InstagramSection />
         <Contact />
       </main>
       <Footer />
