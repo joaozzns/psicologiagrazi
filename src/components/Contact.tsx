@@ -34,23 +34,13 @@ const Contact = () => {
           </h2>
           <div className="w-16 h-1 bg-primary rounded-full mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Estou aqui para ajudar você. Entre em contato para agendar sua sessão ou tirar dúvidas
+            Entre escuta, compreensão e mudança, existe um caminho possível. Estou aqui para acompanhá-la (o)
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Informações de Contato */}
           <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl font-medium text-foreground mb-6">
-                Vamos conversar?
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-8">
-                Agende sua primeira consulta ou esclareça suas dúvidas. 
-                Estou comprometida em oferecer o melhor atendimento para você.
-              </p>
-            </div>
-
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">

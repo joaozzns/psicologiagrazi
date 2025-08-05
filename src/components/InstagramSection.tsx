@@ -1,7 +1,7 @@
 
 const InstagramSection = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 bg-white">
       <div className="container-max section-padding">
         <div className="text-center">
           {/* Desktop version - horizontal image */}
