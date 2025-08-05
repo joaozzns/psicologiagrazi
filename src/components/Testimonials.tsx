@@ -1,4 +1,3 @@
-
 const Testimonials = () => {
   const testimonials = [
     {
@@ -28,6 +27,10 @@ const Testimonials = () => {
     {
       name: "Jenifer",
       text: "O atendimento da Graciela é ótimo, ela é muito paciente e atenciosa! Vivi muito tempo com diagnósticos errados, mas com o acompanhamento dela, tive o diagnóstico correto e tratamento certeiro. Graças ao trabalho dela tenho uma vida mais tranquila e um futuro otimista."
+    },
+    {
+      name: "Welen",
+      text: "A jornada com o transtorno bipolar não é fácil, pelo contrário, é cheia de altos e baixos, incertezas e recomeços. Mas ter uma psicóloga tão sensível, competente e acolhedora ao meu lado fez toda a diferença. Com sua escuta atenta, seu olhar humano e suas orientações firmes, Psicóloga Graciela me ajudou a entender o que antes parecia confuso, a acolher minhas emoções e a construir estratégias para lidar com os extremos que essa condição impõe. Gratidão é pouco diante do cuidado, da paciência e do respeito com que ela me trata em cada sessão. Sua atuação vai muito além da técnica, ela transforma vidas com empatia e dedicação. Sou imensamente grata por tê-la em meu processo de cura e autoconhecimento. Obrigada, de coração."
     }
   ];
 
